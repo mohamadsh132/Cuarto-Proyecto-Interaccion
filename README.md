@@ -1,73 +1,69 @@
-Nombres: Juan Ignacio Gandara / Mohamad Ali Ahmad Shayeb 
+Names: Juan Ignacio Gandara / Mohamad Ali Ahmad Shayeb 
 
-# Cuarto-Proyecto-Interaccion
+# Mini-Project-4
 
-Usando la app OSC Controller (Open Sound Control) y el lenguaje PureData (PD), deben hacer
-un sistema de DJ. Deben usar todos los widgets del layout de la app (sliders y botones), cada
-interacción en un widget debe tener una respuesta auditiva en PD, de manera que puedan
-crearse piezas de música electrónica al estilo de un DJ.
+Using the OSC Controller app (Open Sound Control) and the PureData (PD) language, you must create a DJ system. You should use all the widgets from the app's layout (sliders and buttons), and each interaction with a widget must have an auditory response in PD, allowing you to create electronic music pieces in the style of a DJ.
 
-Limitantes:
+Limitations:
 
-● Se debe usar OSC y Pure Data.
+● OSC and Pure Data must be used.
 
-● Se deben usar diferentes interacciones ofrecidas por OSC (sliders, botones, etc).
+● Different interactions provided by OSC (sliders, buttons, etc.) must be implemented.
 
-● Todas las interacciones deben afectar el audio en PD.
+● All interactions should affect the audio in PD.
 
-● Se debe subir un video a youtube de no más de 5 minutos donde se muestre como
-funciona el sistema (demo con una canción).
+● A video no longer than 5 minutes must be uploaded to YouTube demonstrating how the system works (a demo with a song).
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-### Explicacion de las funcionalidades  
+### Explanation of functionalities
 
-Generación de una base con notas aleatorias y control de pitch:
+Generation of a base with random notes and pitch control:
 
-● Funcionalidad principal: Al presionar el primer botón, se genera una base musical que consiste en una secuencia de notas aleatorias.
+● Main functionality: When pressing the first button, a musical base consisting of a sequence of random notes is generated.
 
-● Modificación de pitch: Un slider permite modificar el pitch (la altura del sonido) de estas notas. Esto significa que se puede alterar la frecuencia de las notas para hacerlas más agudas o más graves, mientras la base sigue sonando.
+● Pitch modification: A slider allows for adjusting the pitch (the height of the sound) of these notes. This means that the frequency of the notes can be altered to make them higher or lower while the base continues playing.
 
-El proposito de esta funcionalidad permite experimentar con diferentes tonalidades y variaciones de las notas, ajustando el sonido en tiempo real.
-Modulador de frecuencia con control de volumen y frecuencia:
+The purpose of this functionality is to experiment with different tonalities and variations of the notes, adjusting the sound in real-time.
 
 ![image](https://github.com/user-attachments/assets/d68d9098-637e-465e-98ad-d81c7bc761ae)
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Modulador de frecuencia con control de volumen y frecuencia:
+Frequency modulator with volume and frequency control:
 
-● Funcionalidad: Esta funcionalidad utiliza dos ejes para controlar dos parámetros clave de las notas: el volumen y la frecuencia.
+● Functionality: This feature uses two axes to control two key parameters of the notes: volume and frequency.
 
-● Eje de volumen: Modifica cuán fuerte o suave suena la música (amplitud).
+● Volume axis: Modifies how loud or soft the music sounds (amplitude).
 
-● Eje de frecuencia: Permite ajustar la frecuencia (el tono o pitch) de las notas en tiempo real.
+● Frequency axis: Allows real-time adjustment of the frequency (tone or pitch) of the notes.
 
-El proposito de la funcionalidad permite manipular ambos parámetros simultáneamente, creando efectos sonoros dinámicos al variar tanto el volumen como la frecuencia.
+The purpose of this functionality is to allow simultaneous manipulation of both parameters, creating dynamic sound effects by varying both the volume and the frequency.
 
 ![image](https://github.com/user-attachments/assets/31c59bad-b4e5-4dca-b02c-fa95939ff46c)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Selector de 24 notas con diferentes octavas:
+Selector of 24 notes with different octaves:
 
-● Funcionalidad: Se dispone de un conjunto de 24 notas diferentes, y estas notas pueden ser usadas en varias octavas.
+● Functionality: A set of 24 different notes is available, and these notes can be used across several octaves.
 
-● Octavas: Las octavas varían de la más aguda a la más grave, permitiéndote acceder a una amplia gama tonal desde las frecuencias más altas hasta las más bajas.
+● Octaves: The octaves range from the highest to the lowest, allowing access to a wide tonal range from the highest to the lowest frequencies.
 
-El proposito es la flexibilidad en la creación musical, permitiendo al usuario escoger notas específicas dentro de diferentes rangos de octavas.
+The purpose is to provide flexibility in musical creation, enabling the user to select specific notes within different octave ranges.
 
 ![image](https://github.com/user-attachments/assets/1b9316ba-e17b-4265-ab27-672666acbccb)
 
 ----------------------------------------------------------------------------------------------------------------------------
-Funcionalidad de grabación:
 
-● Funcionalidad: Permite grabar la música que creas utilizando las funcionalidades anteriores (notas aleatorias, control de pitch, modulador de frecuencia, selector de notas y octavas).
+Recording functionality:
 
-Se captura todo el proceso, permitiendo revisitar tus composiciones una vez que has utilizado todas las herramientas disponibles.
+● Functionality: This allows you to record the music you create using the previous features (random notes, pitch control, frequency modulator, note and octave selector).
+
+The entire process is captured, allowing you to revisit your compositions after using all the available tools.
 
 ----------------------------------------------------------------------------------------------------------------------------
-Link del proyecto: 
+Project Link: 
 
 https://youtu.be/f0sNzTXkBFQ
